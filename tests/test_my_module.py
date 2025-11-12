@@ -1,5 +1,3 @@
-import pytest
-
 from my_package.my_module import add, subtract, multiply, divide
 
 
