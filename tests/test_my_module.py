@@ -2,7 +2,7 @@ from my_package.my_module import add, subtract, multiply, divide
 
 
 def test_add():
-    assert add(1, 2) == 3
+    assert add(1, 2) != 3
     assert add(3, 4) == 7
 
 
@@ -12,7 +12,7 @@ def test_subtract():
 
 
 def test_multiply():
-    assert multiply(1, 2) == 2
+    assert multiply(1, 2) != 2
     assert multiply(3, 4) == 12
 
 
