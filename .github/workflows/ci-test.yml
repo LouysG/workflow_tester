@@ -1,0 +1,8 @@
+name: Test Shared CI
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  ci:
+    uses: LouysG/ci_cd_workflows/.github/workflows/ci.yml@main
